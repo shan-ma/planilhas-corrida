@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano de Treinamento 5K</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .week {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .week h3 {
+            margin: 0;
+            padding: 0;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .day {
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            display: flex;
+            align-items: center;
+        }
+        .day strong {
+            color: #4CAF50;
+        }
+		 .day.completed strong {
+            color: #a0a0a0;
+        }		
+        .day label {
+            flex: 1;
+            margin-left: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .day.completed label {
+            text-decoration: line-through;
+            color: #a0a0a0;
+        }
+		
+        .light-gray-text {
+            color: #a0a0a0; /* Cor cinza claro para o texto */
+        }
+    </style>
+</head>
+<body>
+    <h2>Plano de Treinamento para Corrida de 5 km - 8 Semanas</h2>
+    <div class="container">
+        <!-- Semana 1 -->
+        <div class="week" id="week1">
+            <h3>Semana 1</h3>
+            <div class="day" id="day1-1"><input type="checkbox" id="checkbox1-1"><label for="checkbox1-1"><strong>Segunda:</strong> Fortalecimento</label></div>
+            <div class="day" id="day1-2"><input type="checkbox" id="checkbox1-2"><label for="checkbox1-2"><strong>Terça:</strong> Teste 3k</label></div>
+            <div class="day" id="day1-3"><input type="checkbox" id="checkbox1-3"><label for="checkbox1-3"><strong>Quarta:</strong> Fortalecimento</label></div>
+            <div class="day" id="day1-4"><input type="checkbox" id="checkbox1-4"><label for="checkbox1-4"><strong>Quinta:</strong> Fartlek: <span class="light-gray-text">10' leve</span> + 6 x (2' forte + 1' leve) + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day1-5"><input type="checkbox" id="checkbox1-5"><label for="checkbox1-5"><strong>Sexta:</strong> Off</label></div>
+            <div class="day" id="day1-6"><input type="checkbox" id="checkbox1-6"><label for="checkbox1-6"><strong>Sábado:</strong> Tempo Run: <span class="light-gray-text">10' leve</span> + 10' moderado + 10' firme + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day1-7"><input type="checkbox" id="checkbox1-7"><label for="checkbox1-7"><strong>Domingo:</strong> Off</label></div>
+        </div>
+
+        <!-- Semana 2 -->
+        <div class="week" id="week2">
+            <h3>Semana 2</h3>
+            <div class="day" id="day2-1"><input type="checkbox" id="checkbox2-1"><label for="checkbox2-1"><strong>Segunda:</strong> Fortalecimento</label></div>
+            <div class="day" id="day2-2"><input type="checkbox" id="checkbox2-2"><label for="checkbox2-2"><strong>Terça:</strong> Treino Intervalado: <span class="light-gray-text">10' leve</span> + 10 x 400 m (intervalo de 45")</label></div>
+            <div class="day" id="day2-3"><input type="checkbox" id="checkbox2-3"><label for="checkbox2-3"><strong>Quarta:</strong> Fortalecimento</label></div>
+            <div class="day" id="day2-4"><input type="checkbox" id="checkbox2-4"><label for="checkbox2-4"><strong>Quinta:</strong> Fartlek: <span class="light-gray-text">10' leve</span> + 7 x (2' forte + 1' leve) + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day2-5"><input type="checkbox" id="checkbox2-5"><label for="checkbox2-5"><strong>Sexta:</strong> Off</label></div>
+            <div class="day" id="day2-6"><input type="checkbox" id="checkbox2-6"><label for="checkbox2-6"><strong>Sábado:</strong> Tempo Run: <span class="light-gray-text">10' leve</span> + 15' moderado + 15' firme + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day2-7"><input type="checkbox" id="checkbox2-7"><label for="checkbox2-7"><strong>Domingo:</strong> Off</label></div>
+        </div>
+
+        <!-- Semana 3 -->
+        <div class="week" id="week3">
+            <h3>Semana 3</h3>
+            <div class="day" id="day3-1"><input type="checkbox" id="checkbox3-1"><label for="checkbox3-1"><strong>Segunda:</strong> Fortalecimento</label></div>
+            <div class="day" id="day3-2"><input type="checkbox" id="checkbox3-2"><label for="checkbox3-2"><strong>Terça:</strong> Treino Intervalado: <span class="light-gray-text">10' leve</span> + 5 x 800 m (intervalo de 60")</label></div>
+            <div class="day" id="day3-3"><input type="checkbox" id="checkbox3-3"><label for="checkbox3-3"><strong>Quarta:</strong> Fortalecimento</label></div>
+            <div class="day" id="day3-4"><input type="checkbox" id="checkbox3-4"><label for="checkbox3-4"><strong>Quinta:</strong> Fartlek: <span class="light-gray-text">10' leve</span> + 8 x (2' forte + 1' leve) + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day3-5"><input type="checkbox" id="checkbox3-5"><label for="checkbox3-5"><strong>Sexta:</strong> Off</label></div>
+            <div class="day" id="day3-6"><input type="checkbox" id="checkbox3-6"><label for="checkbox3-6"><strong>Sábado:</strong> Tempo Run: <span class="light-gray-text">10' leve</span> + 15' moderado + 15' firme + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day3-7"><input type="checkbox" id="checkbox3-7"><label for="checkbox3-7"><strong>Domingo:</strong> Off</label></div>
+        </div>
+
+        <!-- Semana 4 -->
+        <div class="week" id="week4">
+            <h3>Semana 4</h3>
+            <div class="day" id="day4-1"><input type="checkbox" id="checkbox4-1"><label for="checkbox4-1"><strong>Segunda:</strong> Fortalecimento Leve</label></div>
+            <div class="day" id="day4-2"><input type="checkbox" id="checkbox4-2"><label for="checkbox4-2"><strong>Terça:</strong> Teste 5k</label></div>
+            <div class="day" id="day4-3"><input type="checkbox" id="checkbox4-3"><label for="checkbox4-3"><strong>Quarta:</strong> Fortalecimento Leve</label></div>
+            <div class="day" id="day4-4"><input type="checkbox" id="checkbox4-4"><label for="checkbox4-4"><strong>Quinta:</strong> Fartlek: <span class="light-gray-text">10' leve</span> + 5 x (2' forte + 1' leve) + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day4-5"><input type="checkbox" id="checkbox4-5"><label for="checkbox4-5"><strong>Sexta:</strong> Off</label></div>
+            <div class="day" id="day4-6"><input type="checkbox" id="checkbox4-6"><label for="checkbox4-6"><strong>Sábado:</strong> Tempo Run: <span class="light-gray-text">10' leve</span> + 15' moderado + 15' firme + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day4-7"><input type="checkbox" id="checkbox4-7"><label for="checkbox4-7"><strong>Domingo:</strong> Off</label></div>
+        </div>
+
+        <!-- Semana 5 -->
+        <div class="week" id="week5">
+            <h3>Semana 5</h3>
+            <div class="day" id="day5-1"><input type="checkbox" id="checkbox5-1"><label for="checkbox5-1"><strong>Segunda:</strong> Fortalecimento</label></div>
+            <div class="day" id="day5-2"><input type="checkbox" id="checkbox5-2"><label for="checkbox5-2"><strong>Terça:</strong> Treino Intervalado: <span class="light-gray-text">10' leve</span> + 10 x 400 m (intervalo de 45")</label></div>
+            <div class="day" id="day5-3"><input type="checkbox" id="checkbox5-3"><label for="checkbox5-3"><strong>Quarta:</strong> Fortalecimento</label></div>
+            <div class="day" id="day5-4"><input type="checkbox" id="checkbox5-4"><label for="checkbox5-4"><strong>Quinta:</strong> Fartlek: <span class="light-gray-text">10' leve</span> + 7 x (2' forte + 1' leve) + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day5-5"><input type="checkbox" id="checkbox5-5"><label for="checkbox5-5"><strong>Sexta:</strong> Off</label></div>
+            <div class="day" id="day5-6"><input type="checkbox" id="checkbox5-6"><label for="checkbox5-6"><strong>Sábado:</strong> Tempo Run: <span class="light-gray-text">10' leve</span> + 15' moderado + 15' firme + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day5-7"><input type="checkbox" id="checkbox5-7"><label for="checkbox5-7"><strong>Domingo:</strong> Off</label></div>
+        </div>
+
+        <!-- Semana 6 -->
+        <div class="week" id="week6">
+            <h3>Semana 6</h3>
+            <div class="day" id="day6-1"><input type="checkbox" id="checkbox6-1"><label for="checkbox6-1"><strong>Segunda:</strong> Fortalecimento</label></div>
+            <div class="day" id="day6-2"><input type="checkbox" id="checkbox6-2"><label for="checkbox6-2"><strong>Terça:</strong> Treino Intervalado: <span class="light-gray-text">10' leve</span> + 5 x 800 m (intervalo de 60")</label></div>
+            <div class="day" id="day6-3"><input type="checkbox" id="checkbox6-3"><label for="checkbox6-3"><strong>Quarta:</strong> Fortalecimento</label></div>
+            <div class="day" id="day6-4"><input type="checkbox" id="checkbox6-4"><label for="checkbox6-4"><strong>Quinta:</strong> Fartlek: <span class="light-gray-text">10' leve</span> + 8 x (2' forte + 1' leve) + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day6-5"><input type="checkbox" id="checkbox6-5"><label for="checkbox6-5"><strong>Sexta:</strong> Off</label></div>
+            <div class="day" id="day6-6"><input type="checkbox" id="checkbox6-6"><label for="checkbox6-6"><strong>Sábado:</strong> Tempo Run: <span class="light-gray-text">10' leve</span> + 15' moderado + 15' firme + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day6-7"><input type="checkbox" id="checkbox6-7"><label for="checkbox6-7"><strong>Domingo:</strong> Off</label></div>
+        </div>
+
+        <!-- Semana 7 -->
+        <div class="week" id="week7">
+            <h3>Semana 7</h3>
+            <div class="day" id="day7-1"><input type="checkbox" id="checkbox7-1"><label for="checkbox7-1"><strong>Segunda:</strong> Fortalecimento</label></div>
+            <div class="day" id="day7-2"><input type="checkbox" id="checkbox7-2"><label for="checkbox7-2"><strong>Terça:</strong> Treino Intervalado: <span class="light-gray-text">10' leve</span> + 10 x 400 m (intervalo de 45")</label></div>
+            <div class="day" id="day7-3"><input type="checkbox" id="checkbox7-3"><label for="checkbox7-3"><strong>Quarta:</strong> Fortalecimento</label></div>
+            <div class="day" id="day7-4"><input type="checkbox" id="checkbox7-4"><label for="checkbox7-4"><strong>Quinta:</strong> Fartlek: <span class="light-gray-text">10' leve</span> + 7 x (2' forte + 1' leve) + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day7-5"><input type="checkbox" id="checkbox7-5"><label for="checkbox7-5"><strong>Sexta:</strong> Off</label></div>
+            <div class="day" id="day7-6"><input type="checkbox" id="checkbox7-6"><label for="checkbox7-6"><strong>Sábado:</strong> Tempo Run: <span class="light-gray-text">10' leve</span> + 15' moderado + 15' firme + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day7-7"><input type="checkbox" id="checkbox7-7"><label for="checkbox7-7"><strong>Domingo:</strong> Off</label></div>
+        </div>
+
+        <!-- Semana 8 -->
+        <div class="week" id="week8">
+            <h3>Semana 8</h3>
+            <div class="day" id="day8-1"><input type="checkbox" id="checkbox8-1"><label for="checkbox8-1"><strong>Segunda:</strong> Fortalecimento Leve</label></div>
+            <div class="day" id="day8-2"><input type="checkbox" id="checkbox8-2"><label for="checkbox8-2"><strong>Terça:</strong> Teste 5k</label></div>
+            <div class="day" id="day8-3"><input type="checkbox" id="checkbox8-3"><label for="checkbox8-3"><strong>Quarta:</strong> Fortalecimento Leve</label></div>
+            <div class="day" id="day8-4"><input type="checkbox" id="checkbox8-4"><label for="checkbox8-4"><strong>Quinta:</strong> Fartlek: <span class="light-gray-text">10' leve</span> + 5 x (2' forte + 1' leve) + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day8-5"><input type="checkbox" id="checkbox8-5"><label for="checkbox8-5"><strong>Sexta:</strong> Off</label></div>
+            <div class="day" id="day8-6"><input type="checkbox" id="checkbox8-6"><label for="checkbox8-6"><strong>Sábado:</strong> Tempo Run: <span class="light-gray-text">10' leve</span> + 15' moderado + 15' firme + <span class="light-gray-text">10' leve</span></label></div>
+            <div class="day" id="day8-7"><input type="checkbox" id="checkbox8-7"><label for="checkbox8-7"><strong>Domingo:</strong> Off</label></div>
+        </div>
+    </div>
+
+    <script>
+    // Função para carregar o estado das caixas de seleção
+    function loadState() {
+        document.querySelectorAll('.day input[type="checkbox"]').forEach(checkbox => {
+            const isChecked = localStorage.getItem(checkbox.id) === 'true';
+            checkbox.checked = isChecked;
+            checkbox.parentElement.classList.toggle('completed', isChecked);
+        });
+    }
+
+    // Função para salvar o estado das caixas de seleção
+    function saveState() {
+        document.querySelectorAll('.day input[type="checkbox"]').forEach(checkbox => {
+            localStorage.setItem(checkbox.id, checkbox.checked);
+        });
+    }
+
+    // Adiciona um listener para todas as caixas de seleção
+    document.querySelectorAll('.day input[type="checkbox"]').forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            // Adiciona ou remove a classe 'completed' com base no estado da caixa de seleção
+            this.parentElement.classList.toggle('completed', this.checked);
+            saveState(); // Salva o estado quando a caixa é alterada
+        });
+    });
+
+    // Carrega o estado ao carregar a página
+    loadState();
+</script>
+
+</body>
+</html>
